@@ -1,0 +1,13 @@
+package secProj;
+
+
+public class Funcionario {
+	int numero;
+	String nome;
+	
+	void trabalha() {
+		System.out.println("funcionario que trabalha");
+	}
+	
+
+}

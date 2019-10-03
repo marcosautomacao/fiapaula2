@@ -1,0 +1,21 @@
+package secProj;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Funcionario f1 = new Funcionario();
+		
+		f1.trabalha();
+		
+		Motorista m1 = new Motorista();
+		m1.trabalha();
+		
+		Funcionario f2 = new Funcionario(788, "Maria");
+		System.out.println(f2.nome);
+		
+		
+	}
+
+}
