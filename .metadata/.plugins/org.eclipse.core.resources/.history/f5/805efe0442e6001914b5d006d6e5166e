@@ -1,0 +1,26 @@
+package secProj;
+
+
+public class Funcionario {
+	int numero;
+	String nome;
+	
+	void trabalha() {
+		System.out.println("funcionario que trabalha");
+	}
+	
+	Funcionario(){
+		
+	}
+	
+	
+	Funcionario(int numero, String nome){
+		this.numero = numero;
+		this.nome   = nome;
+		
+	}
+
+	public int getBonificacao() {
+		return 10;
+	}
+}

@@ -4,7 +4,6 @@ public class Motorista extends Funcionario {
 	
 	void dirige() {
 		System.out.println("Motorista que dirige");
-		
 	}
 	
 	@Override
@@ -12,7 +11,8 @@ public class Motorista extends Funcionario {
 		System.out.println("Motorista que trabalha");
 	}
 	
-	Motorista(){	
+	Motorista() {	
+		
 	}
 	
 	public int getBonificacao() {

@@ -1,0 +1,7 @@
+package secProj;
+
+public class ContaCorrente extends ContaBancaria {
+	public static string main(String[] args) {
+		return getTipo() + "corrente"; 
+	}
+}

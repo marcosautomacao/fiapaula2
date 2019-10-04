@@ -1,0 +1,23 @@
+package secProj;
+
+public class ContaBancaria {
+	private String titular;
+	protected double saldo;
+	
+	public String getTipo() {
+		return "Conta";
+	}
+	
+	public void saque(double valor) {
+		saldo += valor;
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	public double getTitular() {
+		return titular;
+	}
+	
+}
